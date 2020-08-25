@@ -42,6 +42,7 @@ plt.xlim(0.05,0.4)
 x_major_locator=MultipleLocator(0.01)
 ax=plt.gca()
 ax.xaxis.set_major_locator(x_major_locator)
+plt.show()
 '''zhangyuxi@ZhangdeMacBook-Pro wangfang-BI % python3 CC.py '''
 '''test_size:0.05, CART算法准确率: 0.8778
 test_size:0.06, CART算法准确率: 0.8796
